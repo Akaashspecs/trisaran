@@ -11,7 +11,10 @@ const Grow = () => {
       </div>
       <div className="flex flex-col items-center md:items-stretch  md:flex-row gap-5 mt-5 max-w-[1200px]">
         <div className=" flex-1 border-2 border-sky-600/40  rounded-md px-4 pt-2 md:pt-6 pb-4 md:pb-6 flex flex-col items-center max-w-[500px]  md:w-auto h-full">
-          <img src="/india-map.png" className="h-[110px]" />
+          <img
+            src="/india-map.png"
+            className="max-h-[110px]  h-[60px] sm:h-[70px] md:h-[85px] lg:h-[110px]"
+          />
           <div className="font-bold text-lg my-2">Pan-India Presence</div>
           <div className="text-center text-sm md:text-base">
             Trisaran’s pan-India presence totals up to 1500+ cities, 500+
@@ -21,7 +24,10 @@ const Grow = () => {
           </div>
         </div>
         <div className="flex-1  border-2 border-sky-600/40  rounded-md px-4 pt-2 md:pt-6 pb-4 md:pb-6 flex flex-col items-center max-w-[500px]  md:w-auto ">
-          <img src="/conclusion.png" className="h-[110px]" />
+          <img
+            src="/conclusion.png"
+            className="max-h-[110px] h-[60px] sm:h-[70px] md:h-[85px] lg:h-[110px]"
+          />
           <div className="font-bold text-lg my-2">
             Widest Choice For Best Deals
           </div>
@@ -32,7 +38,10 @@ const Grow = () => {
           </div>
         </div>
         <div className="flex-1  border-2 border-sky-600/40  rounded-md px-4 pt-2 md:pt-6 pb-4 md:pb-6  flex flex-col items-center max-w-[500px]  md:w-auto  ">
-          <img src="/leads.png" className="h-[110px]" />
+          <img
+            src="/leads.png"
+            className="max-h-[110px]  h-[60px] sm:h-[70px] md:h-[85px] lg:h-[110px]"
+          />
           <div className="font-bold text-lg my-2">Prime Leads</div>
           <div className="text-center font-normal text-sm md:text-base">
             Registering over 2,00,000 uniques visitors on its website every
