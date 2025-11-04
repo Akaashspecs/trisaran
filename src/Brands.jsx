@@ -15,7 +15,7 @@ const Brands = () => {
       <h3 className="text-3xl md:text-[43px] font-bold text-center border-dashed border-b-2 text-[#0f63ac] border-[#0f63ac]  w-fit">
         Brand who Trust Us
       </h3>
-      <div className="max-w-[450px] text-center my-10">
+      <div className="font-poppins max-w-[450px] text-center my-10">
         We are amongst the top 3 most-preferred channel partners for loans for
         India's widest network of Banks, NBFCs, and Fintech
       </div>

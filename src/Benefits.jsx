@@ -36,7 +36,7 @@ const Benefits = () => {
       <div className=" text-4xl font-semibold text-white  pb-2 border-b-2 border-dashed text-center">
         The Trisaran Benefits
       </div>
-      <div className="max-w-[550px] text-white mt-10 mb-7 text-center">
+      <div className="font-poppins max-w-[550px] text-white mt-10 mb-7 text-center">
         Best deals on loans. Best financial advice. Best processing time. Join
         as a Financial Advisor today.
       </div>
@@ -52,7 +52,7 @@ const Benefits = () => {
                 className="px-3 md:px-0 max-h-[70px] max-w-[70px]"
               />
             </div>
-            <div className="text-center text-sm md:text-sm">
+            <div className="font-poppins text-center text-sm md:text-sm">
               {item.description}
             </div>
           </div>

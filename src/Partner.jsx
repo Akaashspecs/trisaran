@@ -23,7 +23,7 @@ const Partner = () => {
       <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center border-dashed border-b-2 text-[#0f63ac] border-[#0f63ac] pb-4">
         How To Become A <br /> Partner?
       </h3>
-      <div className="text-[16px] mb-[45px] mt-[15px] sm:mt-[25px] ">
+      <div className="font-poppins text-[16px] mb-[45px] mt-[15px] sm:mt-[25px] ">
         3 simple steps for a lifetime of benefits.
       </div>
       <div className="flex flex-col gap-6">
@@ -38,7 +38,9 @@ const Partner = () => {
               <div className="text-base sm:text-xl text-2xl font-bold">
                 {item.title}
               </div>
-              <div className="text-sm sm:text-base">{item.description}</div>
+              <div className="text-sm sm:text-base font-poppins">
+                {item.description}
+              </div>
             </div>
           </div>
         ))}

@@ -37,7 +37,7 @@ const Review = () => {
       <h3 className="text-2xl sm:text-4xl md:text-[43px] font-bold text-center border-dashed border-b-2 text-[#0f63ac] border-[#0f63ac]  w-fit ">
         Highest Standards. Happiest Partners
       </h3>
-      <div className="w-full text-center my-10">
+      <div className="font-poppins w-full text-center my-10">
         Our partners are our strength
       </div>
       <div className="relative md:max-w-[1300px] sm:max-w-[500px] max-w-[300px] mx-auto overflow-hidden min-h-[500px] md:h-[350px] rounded-2xl shadow-lg ">
@@ -56,8 +56,8 @@ const Review = () => {
                 <img src={item.image} className="object-cover h-full " />
               </div>
               <div className=" h-full p-7  md:w-[50%] ">
-                <div className="text-2xl">{item.name}</div>{" "}
-                <div className="leading-5 md:leading-7 text-sm sm:text-base md:text-lg text-gray-700">
+                <div className="text-2xl font-semibold">{item.name}</div>{" "}
+                <div className="font-poppins leading-5 md:leading-7 text-sm sm:text-base md:text-lg text-gray-700">
                   {item.desc}
                 </div>{" "}
               </div>
