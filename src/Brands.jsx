@@ -11,17 +11,17 @@ const Brands = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center">
-      <h3 className="text-[43px] font-bold text-center border-dashed border-b-2 text-[#0f63ac] border-[#0f63ac]  w-fit">
+    <div className="flex flex-col items-center px-5 md:px-0">
+      <h3 className="text-3xl md:text-[43px] font-bold text-center border-dashed border-b-2 text-[#0f63ac] border-[#0f63ac]  w-fit">
         Brand who Trust Us
       </h3>
       <div className="max-w-[450px] text-center my-10">
         We are amongst the top 3 most-preferred channel partners for loans for
         India's widest network of Banks, NBFCs, and Fintech
       </div>
-      <div className="grid  grid-cols-4 gap-5">
+      <div className="grid  grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-5 ">
         {partnerLogo.map((item) => (
-          <div className="border border-gray-400 rounded-xl shadow-lg flex justify-center items-center overflow-hidden py-4">
+          <div className="border border-gray-400 rounded-xl shadow-sm md:shadow-lg flex justify-center items-center overflow-hidden py-4 h-[120px] md:h-[134px]">
             <img src={item} />
           </div>
         ))}

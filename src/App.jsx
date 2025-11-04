@@ -1,5 +1,6 @@
 import Benefits from "./Benefits";
 import Brands from "./Brands";
+import ContactForm from "./Contact-Form";
 import Footer from "./Footer";
 import Grow from "./Grow";
 import Header from "./Header";
@@ -17,6 +18,7 @@ function App() {
           <Benefits />
           <Partner />
           <Brands />
+          <ContactForm />
           <Review />
           <Footer />
         </div>

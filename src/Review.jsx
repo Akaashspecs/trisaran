@@ -34,13 +34,13 @@ const Review = () => {
 
   return (
     <div className="px-10 flex flex-col items-center my-[150px]">
-      <h3 className="text-[43px] font-bold text-center border-dashed border-b-2 text-[#0f63ac] border-[#0f63ac]  w-fit">
+      <h3 className="text-2xl sm:text-4xl md:text-[43px] font-bold text-center border-dashed border-b-2 text-[#0f63ac] border-[#0f63ac]  w-fit ">
         Highest Standards. Happiest Partners
       </h3>
       <div className="w-full text-center my-10">
         Our partners are our strength
       </div>
-      <div className="relative max-w-[1300px] mx-auto overflow-hidden h-[350px] rounded-2xl shadow-lg ">
+      <div className="relative md:max-w-[1300px] sm:max-w-[500px] max-w-[300px] mx-auto overflow-hidden min-h-[500px] md:h-[350px] rounded-2xl shadow-lg ">
         <div
           className="flex transition-transform duration-700 ease-in-out h-full w-full"
           style={{
@@ -50,14 +50,14 @@ const Review = () => {
           {cards.map((item, index) => (
             <div
               key={index}
-              className="w-full flex-shrink-0 flex items-center justify-center  h-full   "
+              className="w-full flex-shrink-0 flex flex-col md:flex-row items-center justify-center  h-full   "
             >
-              <div className="h-full  w-[50%]">
+              <div className="h-full  md:w-[50%]">
                 <img src={item.image} className="object-cover h-full " />
               </div>
-              <div className=" h-full p-7  w-[50%] ">
+              <div className=" h-full p-7  md:w-[50%] ">
                 <div className="text-2xl">{item.name}</div>{" "}
-                <div className="leading-7 text-lg text-gray-700">
+                <div className="leading-5 md:leading-7 text-sm sm:text-base md:text-lg text-gray-700">
                   {item.desc}
                 </div>{" "}
               </div>

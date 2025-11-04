@@ -32,22 +32,24 @@ const Benefits = () => {
     },
   ];
   return (
-    <div className="bg-linear-to-r/srgb from-sky-600 to-sky-500 px-16 flex flex-col items-center py-16">
-      <div className=" text-4xl font-semibold text-white  pb-2 border-b-2 border-dashed">
+    <div className="bg-linear-to-r/srgb from-sky-600 to-sky-500 px-10 md:px-16  flex flex-col items-center py-16">
+      <div className=" text-4xl font-semibold text-white  pb-2 border-b-2 border-dashed text-center">
         The Trisaran Benefits
       </div>
       <div className="max-w-[550px] text-white mt-10 mb-7 text-center">
         Best deals on loans. Best financial advice. Best processing time. Join
         as a Financial Advisor today.
       </div>
-      <div className="flex gap-3  max-w-[1200px]">
+      <div className="flex gap-3 flex-wrap max-w-[1200px] ">
         {details.map((item) => (
-          <div className="flex-1 bg-white rounded-lg items-center flex flex-col p-5 shadow-xl">
-            <div className="font-semibold text-center min-h-[50px]">
+          <div className="flex-1 bg-white rounded-lg items-center flex flex-col p-5 shadow-xl min-w-[200px]">
+            <div className="font-semibold text-center md:min-h-[50px]">
               {item.title}
             </div>
-            <div className="bg-sky-100 h-[100px] w-[100px] rounded-full my-3"></div>
-            <div className="text-center">{item.description}</div>
+            <div className="bg-sky-100 h-[70px] w-[70px] md:h-[100px] md:w-[100px] rounded-full my-3"></div>
+            <div className="text-center text-sm md:text-sm">
+              {item.description}
+            </div>
           </div>
         ))}
       </div>
