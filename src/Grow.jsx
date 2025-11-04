@@ -1,6 +1,6 @@
 const Grow = () => {
   return (
-    <div className="flex flex-col items-center px-8 pb-10 mt-10">
+    <div className="flex flex-col items-center px-5  sm:px-8 pb-10 mt-10">
       <h3 className=" text-3xl md:text-4xl font-semibold text-[#0f63ac] pb-2 border-b-2 border-dashed">
         Grow with Trisaran
       </h3>

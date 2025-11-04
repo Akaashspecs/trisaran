@@ -11,7 +11,7 @@ const Brands = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center px-5 md:px-0">
+    <div className="flex flex-col items-center px-4 md:px-0">
       <h3 className="text-3xl md:text-[43px] font-bold text-center border-dashed border-b-2 text-[#0f63ac] border-[#0f63ac]  w-fit">
         Brand who Trust Us
       </h3>

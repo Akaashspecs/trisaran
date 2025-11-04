@@ -33,7 +33,7 @@ const Review = () => {
   }, [cards.length]);
 
   return (
-    <div className="px-10 flex flex-col items-center my-[150px]">
+    <div className="px-10 flex flex-col items-center mt-[40px] mb-[80px] md:my-[100px]">
       <h3 className="text-2xl sm:text-4xl md:text-[43px] font-bold text-center border-dashed border-b-2 text-[#0f63ac] border-[#0f63ac]  w-fit ">
         Highest Standards. Happiest Partners
       </h3>

@@ -32,7 +32,7 @@ const Benefits = () => {
     },
   ];
   return (
-    <div className="bg-linear-to-r/srgb from-sky-600 to-sky-500 px-10 md:px-16  flex flex-col items-center py-16">
+    <div className="bg-linear-to-r/srgb from-sky-600 to-sky-500 px-5 md:px-16  flex flex-col items-center py-16">
       <div className=" text-4xl font-semibold text-white  pb-2 border-b-2 border-dashed text-center">
         The Trisaran Benefits
       </div>

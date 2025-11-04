@@ -19,7 +19,7 @@ const Partner = () => {
     },
   ];
   return (
-    <div className="flex flex-col items-center py-[120px] px-5 md:px-[60px]">
+    <div className="flex flex-col items-center py-[40px] sm:py-[60px] px-4 md:px-[60px]">
       <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center border-dashed border-b-2 text-[#0f63ac] border-[#0f63ac] pb-4">
         How To Become A <br /> Partner?
       </h3>
