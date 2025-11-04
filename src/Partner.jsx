@@ -2,7 +2,7 @@ const Partner = () => {
   const steps = [
     {
       title: "Login",
-      description: "Login to Andromeda’s on-boarding app.",
+      description: "Login to Trisaran’s on-boarding app.",
       number: 1,
     },
     {

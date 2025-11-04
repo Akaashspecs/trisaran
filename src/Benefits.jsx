@@ -2,33 +2,33 @@ const Benefits = () => {
   const details = [
     {
       title: "Instant Two-Step Onboarding",
-      img: "",
+      img: "/shield.png",
       description:
-        "Upload your KYC documents on our on-boarding app, to register as a Direct Marketing Agent with Andromeda.",
+        "Upload your KYC documents on our on-boarding app, to register as a Direct Marketing Agent with Trisaran.",
     },
     {
       title: "Instant Approvals",
-      img: "",
+      img: "/tick.png",
       description:
         "Get complete access to our in-house CRM which is integrated with multiple banks/NBFCs, to avail instant loan approvals for your customers.",
     },
     {
       title: "Easy Mobile Tracking",
-      img: "",
+      img: "/track.png",
       description:
         "Track your customer’s loan status efficiently, using our mobile-friendly on-boarding app and in-house CRM.",
     },
     {
       title: "Secured System",
-      img: "",
+      img: "/ai.png",
       description:
         "Your data, as well as your customers’, is password protected to ensure maximum protection from online theft.",
     },
     {
       title: "Best Partner Payouts",
-      img: "",
+      img: "/dividend-yield.png",
       description:
-        "As Andromeda is the Largest Loan Distributor for most of the banks/NBFCs, we offer the best-in-class partner payouts.",
+        "As Trisaran is the Largest Loan Distributor for most of the banks/NBFCs, we offer the best-in-class partner payouts.",
     },
   ];
   return (
@@ -46,7 +46,12 @@ const Benefits = () => {
             <div className="font-semibold text-center md:min-h-[50px]">
               {item.title}
             </div>
-            <div className="bg-sky-100 h-[70px] w-[70px] md:h-[100px] md:w-[100px] rounded-full my-3"></div>
+            <div className="bg-sky-100 h-[70px] w-[70px] md:h-[100px] md:w-[100px] rounded-full my-3 flex justify-center items-center">
+              <img
+                src={item.img}
+                className="px-3 md:px-0 max-h-[70px] max-w-[70px]"
+              />
+            </div>
             <div className="text-center text-sm md:text-sm">
               {item.description}
             </div>

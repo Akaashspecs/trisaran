@@ -5,12 +5,12 @@ const Review = () => {
     {
       image: "/Sher-Singh.jpg",
       name: "Sher Singh",
-      desc: "Andromeda’s pan-India presence totals up to 1500+ cities, 500+ branches, and over 5000 employees. With over 30 years of experience in the loans category, Andromeda not only has a stellar market presence, but also an unmitigated market expertise.",
+      desc: "Trisaran’s pan-India presence totals up to 1500+ cities, 500+ branches, and over 5000 employees. With over 30 years of experience in the loans category, Trisaran not only has a stellar market presence, but also an unmitigated market expertise.",
     },
     {
       image: "/Shabnoor-Begham.jpg",
       name: "Shabnoor Begham",
-      desc: "With over 180 lending partners, consisting of India’s largest banks, NBFCs, and Fintechs, Andromeda gives you over 200 financial products to choose from to meet your customers’ needs.",
+      desc: "With over 180 lending partners, consisting of India’s largest banks, NBFCs, and Fintechs, Trisaran gives you over 200 financial products to choose from to meet your customers’ needs.",
     },
     {
       image: "/Renurani-Das.jpg",
@@ -20,7 +20,7 @@ const Review = () => {
     {
       image: "/Vikram-Mishra.jpg",
       name: "Vikram Mishra",
-      desc: "With over 30 years in the market, Andromeda combines deep expertise, market presence, and unmatched customer service.",
+      desc: "With over 30 years in the market, Trisaran combines deep expertise, market presence, and unmatched customer service.",
     },
   ];
   const [currentIndex, setCurrentIndex] = useState(0);

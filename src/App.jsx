@@ -1,7 +1,6 @@
 import Benefits from "./Benefits";
 import Brands from "./Brands";
 import ContactForm from "./Contact-Form";
-import Footer from "./Footer";
 import Grow from "./Grow";
 import Header from "./Header";
 import Intro from "./Intro";
@@ -20,7 +19,7 @@ function App() {
           <Brands />
           <ContactForm />
           <Review />
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </div>
     </>
